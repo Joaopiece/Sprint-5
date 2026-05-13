@@ -8,7 +8,7 @@ const Hero = () => {
     }))
 
     const StyledImg = styled("img")(() => ({
-        width: "30%",
+        width: "40%",
         borderRadius: "50%"
     }))
 
@@ -23,7 +23,8 @@ const Hero = () => {
                         <StyledImg src={Avatar} /> 
                     </Grid>
                     <Grid size={8}>
-                      <Typography color="primary">João Gabriel Curtinaz Maron</Typography>
+                      <Typography color="primary" variant="h1">João Gabriel Curtinaz Maron</Typography>
+                      <Typography color="primary" variant="h2">Sou alguma coisa</Typography>
                     </Grid>
                 </Grid>
             </StyledHero>
